@@ -198,7 +198,7 @@ export default function Contact() {
             <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">
               <div
                 onClick={() =>
-                  window.open("https://github.com/daniel-jebarson", "_blank")
+                  window.open("https://github.com/saikumarvaddepally15", "_blank")
                 }
               >
                 <GitHubIcon className="cursor-pointer hover:scale-105" />
@@ -206,7 +206,7 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.instagram.com/daniel_diago2003",
+                    "https://instagram.com/nani_sai.jtn?igshid=OGQ5ZDc2ODk2ZA==",
                     "_blank"
                   )
                 }
@@ -217,7 +217,7 @@ export default function Contact() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/daniel-jebarson-k-a727a822a",
+                    "https://www.linkedin.com/in/vaddepally-sai-kumar/",
                     "_blank"
                   )
                 }
@@ -225,21 +225,11 @@ export default function Contact() {
                 {" "}
                 <LinkedInIcon className="cursor-pointer hover:scale-105" />
               </div>
-              <div
-                onClick={() =>
-                  window.open(
-                    "https://www.facebook.com/daniel.jebarson.9",
-                    "_blank"
-                  )
-                }
-              >
-                <FacebookIcon className="cursor-pointer hover:scale-105" />
-              </div>{" "}
             </div>
             <div className="mt-6 italic text-sm font-medium text-blue-500 ">
               <span className=" pl-1 ">Copyright</span>
               <CopyrightIcon className="cursor-pointer mx-1" />
-              <span>2023 Daniel Jebarson K</span>
+              <span>2023 Sai Kumar Vaddepally</span>
             </div>
           </div>
         </div>
