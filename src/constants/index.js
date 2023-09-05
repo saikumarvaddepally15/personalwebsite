@@ -12,59 +12,53 @@ export const projects = [
         color: "green-600",
       },
     ],
-    img: "../src/assets/images/breastcancer.png",
-    link: "https://pvz-2-api.vercel.app/",
-    code: "https://github.com/code-cracked/plants-vs-zombies-api",
+    code: "https://drive.google.com/file/d/1RpEKPL3CqE2ZC7B5V9rUiNk5S1eXZJEN/view",
   },
   {
-    title: "Web-Chat-App",
-    desc: "An app made with NextJs to help each other communicate fastly and securely. We can also search for the friends with their username.Realtime updates on messages.",
+    title: "Contact -App",
+    desc: "An app made with Express JS.It has apis to register as new user and create the contacts and perform crud operations.",
     tags: [
       {
-        name: "NextJs",
+        name: "Express",
         color: "red-600",
       },
       {
-        name: "ChakraUI",
+        name: "JWT",
         color: "green-600",
       },
       {
-        name: "SocketIO",
+        name: "Java Script",
         color: "yellow-600",
       },
       {
         name: "MongoDB",
-        color: "blue-800",
+        color: "grey-800",
       },
     ],
-    img: "../assets/images/breastcancer.png",
-    link: "https://web-chat-app-brown.vercel.app",
-    code: "https://github.com/daniel-jebarson/web-chat-app",
+    code: "https://github.com/saikumarvaddepally15/contact_app_express",
   },
   {
-    title: "Exploiter(deprecated)",
-    desc: "This is the simple multi-featured discord bot which is in more than 90+ servers that resembles lords mobile as mini game. It contains the featiures of many bots such as dyno,carl-bot,mee6 etc.It helps to authorize the users, audit the messages and can also be used for other server developments and also for mini-games.  ",
+    title: "Distributed File Sharing System",
+    desc: "This is a distributed file system performing peer-to-peer communication on a centralized server. It also has efficent communicationa dn authentication to perform different operations on files.  ",
     tags: [
       {
         name: "Python",
         color: "red-600",
       },
       {
-        name: "Discord.py",
+        name: "Sockets",
         color: "green-600",
       },
       {
-        name: "discord-interactions",
+        name: "Fernet",
         color: "yellow-600",
       },
       {
-        name: "Flask",
-        color: "blue-800",
+        name: "AES",
+        color: "grey-800",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109031291522928670/Exploiter.png",
-    link: "https://drive.google.com/file/d/1npEOuOhQh-1zRiLB9fFn-6ORTwd1gZkl/view",
-    code: "https://github.com/daniel-jebarson/EXPLOITER",
+    code: "https://github.com/saikumarvaddepally15/DistributedFileSharingSystem",
   },
   {
     title: "Stock Market",
@@ -80,11 +74,9 @@ export const projects = [
       },
       {
         name: "MongoDB",
-        color: "blue-800",
+        color: "grey-800",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109032447783469097/image.png",
-    link: "https://stock-market-seven.vercel.app/",
     code: "https://github.com/daniel-jebarson/Stock-Market",
   },
   {
@@ -112,8 +104,6 @@ export const projects = [
         color: "orange-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109035277814611978/Screenshot_19.png",
-    link: "https://github.com/code-cracked/you-farm",
     code: "https://github.com/code-cracked/you-farm",
   },
 ];
