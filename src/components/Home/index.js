@@ -13,7 +13,7 @@ export default function Home() {
         className="head text-5xl font-semibold tracking-[3px] pb-2 "
         data-aos="zoom-in-up"
       >
-        Welcome
+        Namaste
       </h1>
       <div
         className="text-4xl text-yellow-500 pb-16"
@@ -24,7 +24,7 @@ export default function Home() {
         <Typewriter
           options={{
             strings: [
-              "✋I'm Sai Kumar Vaddepally",
+              "I'm Sai Kumar Vaddepally",
               "I'm an enthusiast Full-Stack web-developer",
               "I'm a Currently Pursing Masters in Computer Science UMBC",
             ],

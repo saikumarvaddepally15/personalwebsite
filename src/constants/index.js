@@ -1,18 +1,18 @@
 export const projects = [
   {
-    title: "Plants vs Zombies API",
-    desc: "An API built with with NextTS and Tailwind CSS to help website builders build their websites about Plants-vs-Zombies-2 easily! Data has been scraped from fandom websites and all data are  error free",
+    title: "Breast Cancer Detection",
+    desc: "Using pre-trained model ResNet 50 for classifying tumors in the scanned medical image to identify breast cancer",
     tags: [
       {
-        name: "NextTs",
+        name: "Machine Learning",
         color: "red-600",
       },
       {
-        name: "TailwindCSS",
+        name: "CNN restNeet 50",
         color: "green-600",
       },
     ],
-    img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109025615442608168/pvz.png",
+    img: "../src/assets/images/breastcancer.png",
     link: "https://pvz-2-api.vercel.app/",
     code: "https://github.com/code-cracked/plants-vs-zombies-api",
   },
@@ -37,7 +37,7 @@ export const projects = [
         color: "blue-800",
       },
     ],
-    img: "https://user-images.githubusercontent.com/88134306/227576773-06c3a1d2-0a1a-4ab2-8d1f-e06d71408410.png",
+    img: "../assets/images/breastcancer.png",
     link: "https://web-chat-app-brown.vercel.app",
     code: "https://github.com/daniel-jebarson/web-chat-app",
   },

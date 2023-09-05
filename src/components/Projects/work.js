@@ -12,33 +12,36 @@ export default function work({ title, desc, tags, link, code, img }) {
       <div className="bg-[#0b212d] w-full h-full rounded-2xl p-4 flex flex-col justify-between">
         <div>
           <div className="relative w-full rounded-2xl">
-            <img
+            {/* <img
               src={img}
               alt={title}
               className="w-full h-full max-h-[200px] min-h-[200px] rounded-[10px] object-cover border-[1px] border-secondary"
-            />
-            <div className="absolute inset-0 flex justify-end m-3 ">
-              <div
-                onClick={() => window.open(link, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mr-2"
-              >
-                <img
-                  src={require("../../assets/images/gotosite.webp")}
-                  alt={"gotosite"}
-                  className="w-4/5 h-4/5 object-contain"
-                />
-              </div>
-              <div
-                onClick={() => window.open(code, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
-              >
-                <img
-                  src={require("../../assets/images/github.webp")}
-                  alt={"github"}
-                  className="w-4/5 h-4/5 object-contain"
-                />
-              </div>
-            </div>
+            /> */}
+           <div className="absolute inset-0 flex justify-end m-3 ">
+  <div style={{ position: "absolute", top: "0", right: "0", display: "flex", flexDirection: "row" }}>
+    {/* <div
+      onClick={() => window.open(link, "_blank")}
+      className="bg-slate-800 w-6 h-6 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer mb-2"
+    >
+      <img
+        src={require("../../assets/images/gotosite.webp")}
+        alt={"gotosite"}
+        className="w-4/5 h-4/5 object-contain"
+      />
+    </div> */}
+    <div
+      onClick={() => window.open(code, "_blank")}
+      className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer"
+    >
+      <img
+        src={require("../../assets/images/github.webp")}
+        alt={"github"}
+        className="w-4/5 h-4/5 object-contain"
+      />
+    </div>
+  </div>
+</div>
+
           </div>
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{title}</h3>
