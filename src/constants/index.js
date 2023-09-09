@@ -61,49 +61,45 @@ export const projects = [
     code: "https://github.com/saikumarvaddepally15/DistributedFileSharingSystem",
   },
   {
-    title: "Stock Market",
-    desc: "Stock Market Website done with ReactJs as Frontend and Express as Backend. This websites gives practice for people those who want to start using stock market. It is based on realtime update of stock value.",
+    title: "Text Utilities",
+    desc: "Text utilities web app is tool to perform different text operations on text.",
     tags: [
       {
         name: "ReactJs",
         color: "red-600",
       },
       {
-        name: "ExpressJs",
+        name: "BootStrap",
         color: "green-600",
       },
-      {
-        name: "MongoDB",
-        color: "grey-800",
-      },
     ],
-    code: "https://github.com/daniel-jebarson/Stock-Market",
+    code: "https://github.com/saikumarvaddepally15/textUtilitiesReactApp",
   },
-  {
-    title: "You-Farm",
-    desc: "An app made with NextJs, Machine Learning and ExpressJs to help farmers to sell their crops without intermediate. It also suggests which crops are needed for the specific soil.",
-    tags: [
-      {
-        name: "NextJs",
-        color: "red-600",
-      },
-      {
-        name: "MaterialUI",
-        color: "green-600",
-      },
-      {
-        name: "ExpressJs",
-        color: "yellow-600",
-      },
-      {
-        name: "FireBase",
-        color: "blue-800",
-      },
-      {
-        name: "Machine Learning",
-        color: "orange-600",
-      },
-    ],
-    code: "https://github.com/code-cracked/you-farm",
-  },
+  // {
+  //   title: "You-Farm",
+  //   desc: "An app made with NextJs, Machine Learning and ExpressJs to help farmers to sell their crops without intermediate. It also suggests which crops are needed for the specific soil.",
+  //   tags: [
+  //     {
+  //       name: "NextJs",
+  //       color: "red-600",
+  //     },
+  //     {
+  //       name: "MaterialUI",
+  //       color: "green-600",
+  //     },
+  //     {
+  //       name: "ExpressJs",
+  //       color: "yellow-600",
+  //     },
+  //     {
+  //       name: "FireBase",
+  //       color: "blue-800",
+  //     },
+  //     {
+  //       name: "Machine Learning",
+  //       color: "orange-600",
+  //     },
+  //   ],
+  //   code: "https://github.com/code-cracked/you-farm",
+  // },
 ];
