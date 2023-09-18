@@ -20,15 +20,13 @@ export default function About() {
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I am a diligent and driven Master's student specializing in Computer Science at the esteemed University of Maryland Baltimore County. My focus areas encompass software development, machine learning, and full-stack development. My academic prowess combined with hands-on experience underscores my enthusiasm for utilizing technology as a tool to tackle intricate challenges and propel innovation
+           "I am a diligent and highly motivated Master's student, currently specializing in Computer Science at the esteemed University of Maryland Baltimore County. My academic journey has been characterized by a strong focus on software development, machine learning, and full-stack development, reflecting my commitment to mastering cutting-edge technologies. My robust academic background, coupled with hands-on industry experience, attests to my passion for leveraging technology as a powerful tool to tackle complex challenges and drive innovation. My pursuit of excellence in the field continues to fuel my determination to make a lasting impact through technology."
           </p>
           <p
             className="text-justify leading-7 text-slate-900"
             data-aos={"fade-right"}
           >
-            I am currently looking for Full-time jobs. Im looking for full-stack/Data Engineer Roles.
-            I worked on reactJs, NextJs, TypeScript, Java and many more. I am
-            also looking to collaborate in open-source projects.
+           "I am actively seeking full-time opportunities in Full-stack and Data Engineer roles, leveraging my expertise in technologies such as ReactJS, JavaScript, and Java, among others. My versatile skill set and passion for innovation make me a strong candidate for roles that require a holistic understanding of both front-end and back-end development. Additionally, I am eager to contribute to open-source projects, fostering collaboration within the developer community and continuously expanding my skill repertoire."
           </p>
         </div>
 
