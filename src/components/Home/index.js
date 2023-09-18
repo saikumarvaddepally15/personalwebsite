@@ -26,7 +26,7 @@ export default function Home() {
             strings: [
               "I'm Sai Kumar Vaddepally",
               "I'm an enthusiast Full-Stack web-developer",
-              "I'm a Currently Pursing Masters in Computer Science UMBC",
+              "I'm Currently Pursing Masters in Computer Science at UMBC",
             ],
             delay: 100,
             pauseFor: 1000,
